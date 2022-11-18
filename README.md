@@ -3,13 +3,13 @@
 
 
 ## Apis
-![Archivos Csv](/images/files.png)
+![files](/images/files.png)
 ```sh
 
   GET ALL FILES CSV
   GET http://localhost:3000/api/routes/files
 ```
-![Archivos Csv](/images/fileByName.png)
+![file by name](/images/fileByName.png)
 ```sh
 
   GET FILE BY NAME
@@ -27,9 +27,9 @@ npm install
 ```sh
 npm start
 ```
-[![Image](https://raw.githubusercontent.com/DavidCutiopala/Toolbox/main/images/Test.PNG "Image")](https://raw.githubusercontent.com/DavidCutiopala/Toolbox/main/images/Test.PNG "Image")
+
 ## Unit TEST
-![Archivos Csv](/images/resultTest.png)
+![unit test](/images/resultTest.png)
 ```sh
 npm test
 ```
