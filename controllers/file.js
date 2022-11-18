@@ -2,8 +2,6 @@ var request = require("request-promise");
 
 var secretFiles = [];
 var URL_CLIENT = "https://echo-serv.tbxnet.com/v1/secret/";
-let file = {}
-
 
 const winston = require('winston')
 const consoleTransport = new winston.transports.Console()
@@ -39,8 +37,10 @@ const getHello = () => {
   return "Hello";
 };
 
-/* Funcitoin resquest CSV FILES */
+/* Function resquest CSV FILES */
 const requestCsv = async () => {
+
+  logger.info("Consultando archivos --------------------")
   const secretFilesList = await request(
     {
       url: `${URL_CLIENT}files/`,

@@ -1,16 +1,16 @@
-[![Image](https://raw.githubusercontent.com/cutioluis/FrontEnd_FileCSV/master/src/images/back.PNG "Image")](https://raw.githubusercontent.com/cutioluis/FrontEnd_FileCSV/master/src/images/back.PNG "Image")
-> FullStack Challengue TOOLBOX
+[![Image](https://raw.githubusercontent.com/DavidCutiopala/BackEnd_FileCSV/images/apigetall.PNG "Image")](https://raw.githubusercontent.com/DavidCutiopala/BackEnd_FileCSV/images/Test.PNG "Image")
+> FullStack Challengue TOOBOX
 
 ## Apis
 
 ```sh
   GET ALL FILES CSV
-  GET http://localhost:3000/api/routes/secret-filesi
+  GET http://localhost:3000/api/routes/files
 ```
 ```sh
 
   GET FILE BY NAME
-  GET http://localhost:3000/api/routes/secret-files/test6.csv
+  GET http://localhost:3000/api/routes/file/test6.csv
 ```
 
 ## Install
@@ -25,7 +25,7 @@ npm install
 npm start
 ```
 
-## Usage
+## Unit TEST
 ```sh
 npm test
 ```

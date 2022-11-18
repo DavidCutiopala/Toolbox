@@ -11,10 +11,10 @@ chai.use(chaiHttp);
 describe('FILES API  CSV', () => {
 
 
-  describe("GET /api/routes/secret-files", () => {
+  describe("GET /api/routes/files", () => {
     it("It should GET all the  files", (done) => {
       chai.request(server)
-        .get("/api/routes/secret-files")
+        .get("/api/routes/files")
         .end((err, response) => {
           response.should.have.status(200);
           response.body.should.be.a('array');
@@ -25,7 +25,7 @@ describe('FILES API  CSV', () => {
 
     it("It should NOT GET all the files  'only files==null pass this test '", (done) => {
       chai.request(server)
-        .get("/api/routes/secret-file")
+        .get("/api/routes/file")
         .end((err, response) => {
           response.should.have.status(404);
           done();
@@ -35,10 +35,10 @@ describe('FILES API  CSV', () => {
   });
 
 
-  describe("GET /api/routes/secret-files/:name", () => {
+  describe("GET /api/routes/file/:name", () => {
     it("It should GET file by name", (done) => {
       chai.request(server)
-        .get("/api/routes/secret-files/" + "test6.csv")
+        .get("/api/routes/file/" + "test6.csv")
         .end((err, response) => {
           response.should.have.status(200);
           done();
