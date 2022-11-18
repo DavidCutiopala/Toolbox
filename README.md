@@ -4,14 +4,14 @@
 
 ## Apis
 
-![files](/images/files.png)
+![files](/images/files.PNG)
 
 ```sh
 
   GET ALL FILES CSV
   GET http://localhost:3000/api/routes/files
 ```
-![ file by name](/images/fileByName.png)
+![ file by name](/images/fileByName.PNG)
 
 ```sh
 
